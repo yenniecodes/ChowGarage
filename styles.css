@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #F2C49D;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #772121;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    color: #F5A25D; /* Changes text color on hover */
+    text-decoration: underline; /* Adds underline on hover */
+}
+.hero {
+    background-color: #772121;
+    background-image: url('chowgarage-background.png'); /* Path to your image */
+    background-size: auto; /* Ensures the background image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 411px; /* Adjust based on your desired height */
+    position: relative; /* Enables absolute positioning of child elements */
+    display: flex;
+    flex-direction: column; /* Stacks the image and text vertically */
+    justify-content: flex-end; /* Aligns content to the bottom */
+    align-items: center; /* Centers the content horizontally */
+    color: #f5f5f5; /* Light text color for readability */
+    padding: 20px; /* Adds padding around the content */
+}
+
+.hero p {
+    margin: 10px 0 0 0; /* Adjusts margin: top 10px, bottom 0, no left or right margin */
+    font-size: 0.5rem; /* Slightly smaller font size */
+    text-align: center; /* Centers the text */
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.chow-section {
+    background-color: #772121;
+    background-image: url('th\ \(2\).jpg') fixed;
+    background: url('th.jpg') no-repeat center center;
+    background-size: cover;
+    opacity: 0.55;
+    height: 411px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.burgarage-section {
+    background-color: #772121;
+    background: url('th\ \(1\).jpg') no-repeat center center;
+    background-size: cover;
+    opacity: 0.55;
+    height: 411px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.chow-section p, .burgarage-section p {
+    font-size: 1.5rem;
+    width: 70%;
+    background-color: rgba(121, 16, 16, 0.5); 
+    padding: 15px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #F2C49D;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-address p {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
