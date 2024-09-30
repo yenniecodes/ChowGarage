@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #f7b731;
+    background-color: #F2C49D;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -33,21 +33,35 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #772121;
     font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
 
+nav ul li a:hover {
+    color: #F5A25D; /* Changes text color on hover */
+    text-decoration: underline; /* Adds underline on hover */
+}
 .hero {
-    background: url('chowgarage-background.png') no-repeat center center/cover;
-    text-align: center;
-    padding: 60px 0;
-    color: white;
-    font-size: 2rem;
+    background-color: #772121;
+    background-image: url('chowgarage-background.png'); /* Path to your image */
+    background-size: auto; /* Ensures the background image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 411px; /* Adjust based on your desired height */
+    position: relative; /* Enables absolute positioning of child elements */
+    display: flex;
+    flex-direction: column; /* Stacks the image and text vertically */
+    justify-content: flex-end; /* Aligns content to the bottom */
+    align-items: center; /* Centers the content horizontally */
+    color: #f5f5f5; /* Light text color for readability */
+    padding: 20px; /* Adds padding around the content */
 }
 
 .hero p {
-    margin-top: 10px;
-    font-size: 1.2rem;
+    margin: 10px 0 0 0; /* Adjusts margin: top 10px, bottom 0, no left or right margin */
+    font-size: 0.5rem; /* Slightly smaller font size */
+    text-align: center; /* Centers the text */
 }
 
 .content {
@@ -55,18 +69,46 @@ nav ul li a {
     text-align: center;
 }
 
-.restaurant-description {
-    margin-bottom: 40px;
+.chow-section {
+    background-color: #772121;
+    background-image: url('th\ \(2\).jpg') fixed;
+    background: url('th.jpg') no-repeat center center;
+    background-size: cover;
+    opacity: 0.55;
+    height: 411px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
 }
 
-.restaurant-description h2 {
-    font-size: 1.8rem;
-    color: #f7b731;
+.burgarage-section {
+    background-color: #772121;
+    background: url('th\ \(1\).jpg') no-repeat center center;
+    background-size: cover;
+    opacity: 0.55;
+    height: 411px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.chow-section p, .burgarage-section p {
+    font-size: 1.5rem;
+    width: 70%;
+    background-color: rgba(121, 16, 16, 0.5); 
+    padding: 15px;
+    border-radius: 10px;
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #F2C49D;
+    color: rgb(0, 0, 0);
     padding: 20px;
     text-align: center;
 }
