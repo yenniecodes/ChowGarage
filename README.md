@@ -1,4 +1,4 @@
-CHOWGARAGE Website
+``` CHOWGARAGE Website
 This is the official website for CHOWGARAGE, a combination of two food brands, Chow Express and Burgarage, located in Los Baños, Laguna. The website is designed to showcase the restaurant, its menu, and locations. The site features a logo header, sections with background images, and stylized navigation.
 
 Project Structure
